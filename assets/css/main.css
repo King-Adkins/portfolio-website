@@ -94,7 +94,7 @@ input, select, textarea {
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
-		color: #3a3939;
+		color: white;
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 		-webkit-text-stroke: 0.25px;
 	}
@@ -1627,7 +1627,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		background: #f1f1f1;
+		background: black;
 		width: 100%;
 		padding: 0.75em;
 	}
@@ -1637,7 +1637,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background-color: #f8f8f8;
+			background-color: black;
 		}
 
 	form input[type="text"],
@@ -1657,8 +1657,8 @@ input, select, textarea {
 	}
 
 		form select option {
-			color: #3a3939;
-			background: #ffffff;
+			color: white;
+			background: black;
 		}
 
 		form select:focus::-ms-value {
@@ -1729,7 +1729,7 @@ input, select, textarea {
 		}
 
 		table thead {
-			background: #f5f5f5;
+			background: black;
 		}
 
 /* Button */
@@ -1747,7 +1747,7 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: black;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1764,7 +1764,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #45c89f;
+			background: transparent;
 		}
 
 		input[type="button"].style2,
@@ -1772,9 +1772,9 @@ input, select, textarea {
 		input[type="reset"].style2,
 		button.style2,
 		.button.style2 {
-			color: #3a3939;
-			background: #fff;
-			box-shadow: inset 0 0 0 1px #fff;
+			color: white;
+			background: black;
+			box-shadow: inset 0 0 0 1px red;
 		}
 
 			input[type="button"].style2:hover,
@@ -1782,7 +1782,7 @@ input, select, textarea {
 			input[type="reset"].style2:hover,
 			button.style2:hover,
 			.button.style2:hover {
-				background: rgba(255, 255, 255, 0.1);
+				background: red;
 				color: #fff !important;
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25) !important;
 			}
@@ -1793,7 +1793,7 @@ input, select, textarea {
 		button.style3,
 		.button.style3 {
 			background: none;
-			color: #3a3939;
+			color: white;
 			box-shadow: inset 0 0 0 1px #dad9d9;
 		}
 
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		}
 
 		.box.style1 {
-			background: #fff;
+			background: black;
 			padding: 3em;
 		}
 
@@ -1898,7 +1898,7 @@ input, select, textarea {
 
 			.box.style2 header {
 				display: inline-block;
-				background: #fff;
+				background: black;
 				padding: 2em 3em 2em 3em;
 				margin: 0;
 			}
@@ -1919,7 +1919,7 @@ input, select, textarea {
 					top: 0;
 					left: 50%;
 					height: 100%;
-					border-left: solid 1px #fff;
+					border-left: solid 1px red;
 				}
 
 				.box.style2 .inner .row {
@@ -1933,7 +1933,7 @@ input, select, textarea {
 						top: 50%;
 						left: 20px;
 						width: calc(100% - 40px);
-						border-bottom: solid 1px #fff;
+						border-bottom: solid 1px red;
 					}
 
 				.box.style2 .inner .image {
@@ -1943,7 +1943,7 @@ input, select, textarea {
 				}
 
 		.box.style3 {
-			background: #fff;
+			background: black;
 			padding: 3em;
 		}
 
@@ -2075,14 +2075,14 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: black url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 	}
 
 		#banner .button {
-			color: #35b882;
+			color: white;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
